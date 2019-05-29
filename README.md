@@ -4,5 +4,5 @@
 
 ##Screenshot
 
-![image](https://github.com/mrlsm/edittabs/assets/demo.gif)
+![image](https://github.com/mrlsm/edittabs/blob/master/assets/demo.gif)
 
