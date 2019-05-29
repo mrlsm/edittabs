@@ -115,7 +115,7 @@ public class MainActivity extends AppCompatActivity {
                     final int[] startLocation = new int[2];
                     newTextView.getLocationInWindow(startLocation);
                     final ChannelItem channel = ((DragAdapter) parent.getAdapter()).getItem(position);
-                    if (TextUtils.equals(mEditText.getText(), TEXT_EDIT) && channel.isCanEdit()) {
+                    if (TextUtils.equals(mEditText.getText(), TEXT_FINISH) && channel.isCanEdit()) {
                         //添加到最后一个
                         otherAdapter.setVisible(false);
                         otherAdapter.addItem(channel);
